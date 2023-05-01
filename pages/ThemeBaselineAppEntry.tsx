@@ -1,5 +1,5 @@
 import React from "react";
-import { AppProps, NextComponent, AppInitialProps } from "next/app";
+import NextComponent from "next/app";
 import { ThemeContextType } from "../@types/theme";
 import { useThemeMode, ThemeCtx } from "../contexts/themecontext";
 import { FiaCtx, useFia } from "../contexts/fiacontext";
@@ -17,7 +17,7 @@ const StyledDiv = styled("div")(
 );
 
 type MyProps = {
-	Component: NextComponent;
+	Component: any;
 	pageProps: any;
 };
 
