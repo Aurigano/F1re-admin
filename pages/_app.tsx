@@ -14,7 +14,7 @@ import {
 } from "../contexts/themecontext";
 import { FiaCtxProvider } from "../contexts/fiacontext";
 import { ThemeContextType } from "../@types/theme";
-import ThemeBaselineAppEntry from "./ThemeBaselineAppEntry";
+import ThemeBaselineAppEntry from "../src/ThemeBaselineAppEntry";
 
 // Client-side cache, shared for the whole session of the user in the browser.
 const clientSideEmotionCache = createEmotionCache();

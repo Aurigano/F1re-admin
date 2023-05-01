@@ -2,9 +2,9 @@ import { Dispatch, SetStateAction } from "react";
 import { styled, withTheme } from "@mui/material/styles";
 import Skeleton from "@mui/material/Skeleton";
 import TimerOutlinedIcon from "@mui/icons-material/TimerOutlined";
-import { DriverResultProps, IDnfArray } from "../../../@types/race";
-import getDriverDetails from "../../../utils/getDriverDetails";
-import getContructorDetails from "../../../utils/getConstructorDetails";
+import { DriverResultProps, IDnfArray } from "../../@types/race";
+import getDriverDetails from "../../utils/getDriverDetails";
+import getContructorDetails from "../../utils/getConstructorDetails";
 import {
 	ALFAROMEO,
 	ALPHATAURI,
@@ -16,8 +16,8 @@ import {
 	MERCEDES,
 	REDBULL,
 	WILLIAMS,
-} from "../../../utils/constants";
-import getConstructorLogoPath from "../../../utils/getConstructorLogoPath";
+} from "../../utils/constants";
+import getConstructorLogoPath from "../../utils/getConstructorLogoPath";
 
 type PropType = {
 	driverInfo: DriverResultProps;

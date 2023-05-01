@@ -3,10 +3,10 @@ import NextComponent from "next/app";
 import { ThemeContextType } from "../@types/theme";
 import { useThemeMode, ThemeCtx } from "../contexts/themecontext";
 import { FiaCtx, useFia } from "../contexts/fiacontext";
-import Navbar from "./navbar";
+import Navbar from "../pages/navbar";
 import { ThemeProvider, styled } from "@mui/material/styles";
 import CssBaseline from "@mui/material/CssBaseline";
-import lightTheme, { darkTheme } from "../src/theme";
+import lightTheme, { darkTheme } from "./theme";
 
 const StyledDiv = styled("div")(
 	() => `

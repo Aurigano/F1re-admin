@@ -6,9 +6,9 @@ import {
 	DriverResultProps,
 	IDriverRows,
 	IDnfArray,
-} from "../../../@types/race";
+} from "../../@types/race";
 import DriverCards from "./DriverCards";
-import getEditedResults from "../../../utils/getEditedResults";
+import getEditedResults from "../../utils/getEditedResults";
 
 const StyledDiv = styled("div")((props) => {
 	return `

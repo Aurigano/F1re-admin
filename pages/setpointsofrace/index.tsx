@@ -1,7 +1,7 @@
 import React from "react";
 import TextField from "@mui/material/TextField";
 import Autocomplete from "@mui/material/Autocomplete";
-import Results from "./components/Result";
+import Results from "../../src/components/Result";
 
 function setPointOfRace(props: any) {
 	const racesOfYear = props.data.rows.map(function (race: any) {
